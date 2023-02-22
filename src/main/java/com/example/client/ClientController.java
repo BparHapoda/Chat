@@ -87,9 +87,6 @@ public class ClientController {
                     throw new RuntimeException(e);
                 }
                 sentMessageArea.appendText(message+"\n");
-      ////          if(!message.startsWith("#login")){
-      //              String [] msgs=message.split(" ");
-      //          sentMessageArea.appendText(" connected" +"\n");}
             }
 
 
